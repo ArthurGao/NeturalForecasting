@@ -42,7 +42,8 @@ To configure and use this Azure Function, you'll need to set the following envir
        "epochs": null,
        "freq": "D"
    }
-```
+   ```
+   
 ## Local Development
 Replace local.setting.json.local to local.setting.json
 Replace requirements.txt.local to requirements.txt
@@ -58,4 +59,4 @@ Send an HTTP POST request to the Azure Function with the following JSON payload:
             "epochs": 100,
             "freq": "D"
         }' http://localhost:7071/api/ForcastingTrigger
-```
+   ```
